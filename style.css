@@ -1,0 +1,60 @@
+/* configurações padrões para o body */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* setando o tamanho da fonte e o alinhamento do texto */
+p{
+    font-size: 1.3em;
+    margin: 30px 0;
+    text-align: center;
+}
+
+/* adicionar uma margin no topo, centralizar conteudo */
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* alinhando a tag header e adicionando espaçamento no topo */
+.header{
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* centralizando e adicionando espaçamento no topo */
+div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* estilizando a barra de opções */
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 50px;
+    background: #000;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+/* espaçamento no conteúdo */
+.navbar{
+    margin-bottom: 150px;
+}
+
+/* adicionando cor vermelha */
+a:hover{
+    color: red;
+}
+
+/* espaçamento no formulário */
+form{
+    margin-top: 100px;
+}
